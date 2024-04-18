@@ -113,12 +113,12 @@
                                                                         in</small></label>
                                                             </div>
                                                         </div>
-                                                        {{-- <div class="text-right"><a href="{{ route('password.request') }}" class="card-link"><small>Forgot Password?</small></a></div> --}}
+                                                        <div class="text-right"><a href="{{ route('password.request') }}" class="card-link"><small>Forgot Password?</small></a></div>
                                                     </div>
                                                     <button type="submit" class="btn btn-primary glow w-100 position-relative">Login<i id="icon-arrow" class="bx bx-right-arrow-alt"></i> </button>
                                                 </form>
-                                                {{-- <hr> --}}
-                                                {{-- <div class="text-center"><small class="mr-25">Don't have an account?</small><a href="{{ route('register') }}"><small>Sign up</small></a></div> --}}
+                                                <hr>
+                                                <div class="text-center"><small class="mr-25">Don't have an account?</small><a href="{{ route('register') }}"><small>Sign up</small></a></div>
                                             </div>
                                         </div>
                                     </div>

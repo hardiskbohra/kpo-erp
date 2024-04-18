@@ -10,7 +10,7 @@ class UserController extends Controller
     public function index()
     {
        $users = User::with('role')->get();
-       return view('user.list_copy', compact('users'));
+       return view('user.list', compact('users'));
     }
 
 
@@ -22,7 +22,7 @@ class UserController extends Controller
      */
     public function edit(User $user)
     {
-        $roles = \App\Models\Role::select('id','name')->get();
+        $roles = \App\Models\Role::select('id','role_name')->get();
         return view('user.edit',compact(['user','roles']));
     }
 
